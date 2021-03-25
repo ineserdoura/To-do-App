@@ -1,0 +1,44 @@
+.container{
+  border-radius: 20px;
+  background-color: #36323A;
+  box-shadow: 2px 2px 5px gray;
+  color:white;
+}
+
+
+.card, .btn-link{
+color:black;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  overflow: auto;
+  bottom: 20%;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.modal-content button {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: black
+}
+#submit-todo, #clear-todos{
+  color:#fff;
+  width: 100px;
+}
+
+.card .done{
+  display: block;
+}
